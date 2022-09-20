@@ -89,11 +89,11 @@ h4 {
 }
 .gallery {
     position: relative;
-    height: 190px;
+    height: 210px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px lightgray;
     cursor: pointer;
-    width: 75px;
+    width: 140px;
 }
 .gallery img {
     width: 100%;
