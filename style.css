@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: black;
+    width: 100%;
+}
+header {
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   color: red; 
+}
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/black\ out.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    flex-basis: 50%;
+}
+.logo h1 {
+    width: 200px;
+    font-size: 40px;
+}
+.nav-lnks {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none; 
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.blur a img { 
+    max-height: 300px; 
+    padding-left: 20px; 
+    padding-top: 30px; 
+}
+.title {
+   padding-left:100px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.blur {
+    background-color: rgba(3, 3, 3, 0.493);
+}
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.watch {
+    background-color: red;
+    width: 100px;
+    color: white;
+}
+.watch a {
+    text-decoration: none;
+    color: white;
+}    
+.photo {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin-top: 30px;
+}
+.gallery {
+    position: relative;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    width: 75px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-style:inherit;
+}
+footer {
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.404);
+    height: 40px;
+    margin-top: 100px;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
